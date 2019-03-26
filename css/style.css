@@ -11,6 +11,10 @@ nav .nav-wrapper {
     height: 70px;
 }
 
+nav .nav-wrapper ul li a:hover {
+    color: #ec5e87;
+}
+
 nav .nav-wrapper img {
     margin-bottom: -7px;
 }
@@ -132,9 +136,9 @@ div.parallax-container {
     margin-top: 10%;
 }
 
-input {
+/* input {
     background: url('/Images/email.PNG') no-repeat cover;
-}
+} */
 
 .signup {
     height: 40px;
@@ -152,23 +156,13 @@ input {
     cursor: pointer;
 }
 
-.page-footer {
-    margin-top: 5%;
-}
-
-.page-footer h5 {
-    font-weight: bold;
-}
-.page-footer .info span {
-    font-weight: bold;
-}
-
 .height {
     height: 525px;
 }
 
 .join-us {
     background-color: #213E8C;
+    margin-top: 4%;
 }
 
 .donate-button {
@@ -193,70 +187,75 @@ input {
     margin-bottom: 16%;
 }
 
-.upcoming-events {
+.foot {
+    display: flex;
+}
+
+.foot div {
+    margin-right: 5%;
+    padding: 5%;
+}
+.footer-element{
+    flex:1;
+    padding:10px;
+}
+.footer-element2{
+    flex:2;
+    padding:10px;
+}
+
+.footer-copyright
+{
+    height: 50px;
+    background-color: #101F46;
+    margin-top: -3%;
+}
+
+.info span {
     font-weight: bold;
-    margin-bottom: 4%;
 }
 
-.event span {
-    margin-left: 20px;
+.copyright {
+  padding-top: 1%;
 }
 
-.date {
-    font-size: 40px;
-}
+.width{
+    width:90%;
+    border:none;
+} 
 
-.event-heading {
-    font-size: 35px;
+.display{
+    display:inline-block;
 }
-
-.reg-button {
-    height: 40px;
-    width: 100px;
-    padding: 10px 28px;
-    font-size: 17px;
-    background-color: #EC5E87;
-    color: white;
-    margin-left: 20px;
+.collapsible-header:hover  .display{ 
+    display:none;
 }
-
-.event-heading-post {
-    font-size: 35px;
+.center-div{
+    margin-left:15%;
+} 
+.collapsible-header{
+    border-bottom:2px solid #EC407A;
 }
-
-.collapsible{
-    width: 85%;
-    margin-left: 18%;
+.date{
+    font-size:42px; 
 }
-
-.collapsible li{
-    margin-left: 18%;
+.superscript{
+    font-size:15px;
+    position:relative;
+    top:-25px;
 }
-
-.collapsible {
-    display: none;
+.subscript{
+    font-size:15px;
+    position:relative;
+    left:-35px;
 }
-
-.event:hover + .collapsible {
-    display: block;
+.text:hover{
+    color:#EC407A;
 }
-
-.event:hover {
-    display: none;
+.text{
+    font-size:30px;
+    color:black;
 }
-
-.divide {
-    height: 1px;
-    background-color: rgb(194, 193, 193);
-    width: 70%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 16%;
-}
-
-@media only screen and (max-width: 1147px) {
-    .foot {
-        display: block;
-        width: 100%;
-    }
+.location{
+    font-size:17px;
 }
